@@ -1,0 +1,49 @@
+body{
+    font-family: 'Poppins';
+    display:flex; 
+  flex-direction:column; 
+}
+
+h1{
+    text-align:center;
+    color:#6648b1;
+    margin:30px 0 30px;
+}
+
+h4{
+    text-align:center;
+    font-size:20px;
+    font-weight: normal;
+}
+
+.gallery img{
+    width: 250px;
+    padding:5px;
+}
+
+.gallery img:hover{
+    transform:scale(1.1);
+}
+
+.navbar{
+  padding: .8rem;
+}
+
+.navbar-nav li{
+  padding-right: 20px;
+}
+
+.nav-link{
+  font-size: 1.1em !important;
+}
+
+.gallery{
+    padding-bottom:80px;
+}
+
+footer{
+  margin-top:auto; 
+  background-color: #3f3f3f;
+  color:#d5d5d5;
+  padding-top:1rem;
+}

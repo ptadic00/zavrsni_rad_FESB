@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color:#222;
+}
+
+.navbar{
+  padding: .8rem;
+}
+
+.navbar-nav li{
+  padding-right: 20px;
+}
+
+.nav-link{
+  font-size: 1.1em !important;
+}
+
+.carousel{
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-inner img{
+  width: 100%;
+  height: 450px;
+}
+
+.carousel-caption{
+  position:absolute;
+  top:50%;
+  right:50%;
+  transform: translateY(-50%);
+  width:70%;
+  padding-right:0px !important;
+}
+
+
+
+
+
+.carousel-caption h1{
+  color: white;
+  font-size:400%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+    text-align:center;
+}
+
+.carousel-caption h3{
+  font-size:200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+}
+
+
+
+.btn-primary{
+  background-color: #6648b1;
+  border: 1px solid #664d7c;
+}
+
+.btn-primary:hover{
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+
+
+.jumbotron{
+  padding: 1rem;
+  border-radius: 0;
+}
+
+
+.padding{
+  padding-bottom:2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+
+.welcome{
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+
+.welcome hr{
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.fa-user-md{
+  color: #e54d26;
+}
+
+.fa-diagnoses{
+  color: #563d7c;
+}
+
+.fa-baby{
+  color: #2163af;
+}
+
+.fa-notes-medical{
+  color:green;
+}
+
+.fa-venus{
+  color: fuchsia;
+}
+
+.fa-user-md, .fa-diagnoses, .fa-baby, .fa-stethoscope, .fa-notes-medical, .fa-venus{
+  font-size: 4em;
+  margin: 1rem;
+}
+
+.fun{
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+
+footer{
+  background-color: #3f3f3f;
+  color:#d5d5d5;
+  padding-top:1rem;
+}
+
+hr.light{
+  border-top:1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+.display-4{
+    font-size: 3.2rem;
+}
+
+
+
+
+
+
+@media (max-width: 375px){
+.carousel-caption{
+  top:35%;
+  font-size:6px;
+  right:30%;
+}
+
+.carousel-caption .btn{
+      width: 70px;
+        height: 30px;
+}
+
+.carousel-caption a{
+       font-size:10px;
+}
+
+html, body {
+    margin: 0;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    height: 100%;
+    width:100%;
+}
+
+.pocetna_slika{
+    width:100% !important;
+    height:200px !important;
+}
+}
+
+
+
+
+
+@media (max-width: 576px) and (min-width:376px) {
+.carousel-caption{
+  top:38%;
+  padding:0;
+  font-size:9px;
+  right:30%;
+}
+
+html, body {
+    margin: 0;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    height: 100%;
+    width:100%;
+}
+
+.carousel-caption .btn{
+      width: 90px;
+        height: 40px;
+}
+
+.carousel-caption a{
+       font-size:15px;
+}
+
+.pocetna_slika{
+    width:100% !important;
+    height:250px !important;
+}
+}
+
+@media (max-width:900px) and (min-width:577px){
+.carousel-caption{
+  top:30%;
+  font-size:12px;
+  right:30%;
+}
+
+html, body {
+    margin: 0;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    height: 100%;
+    width:100%;
+}
+
+.carousel-caption .btn{
+      width: 110px;
+        height: 50px;
+}
+
+.carousel-caption a{
+       font-size:20px;
+}
+
+.pocetna_slika{
+    width:100% !important;
+    height:280px !important;
+}
+}
+
+@media (min-width:901px){
+.carousel-caption{
+  top:48%;
+  font-size:18px;
+  right:30%;
+}
+
+html, body {
+    margin: 0;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    height: 100%;
+    width:100%;
+}
+
+.carousel-caption .btn{
+      width: 110px;
+        height: 50px;
+}
+
+.carousel-caption a{
+       font-size:20px;
+}
+
+.pocetna_slika{
+    width:100% !important;
+    height:500px !important;
+}
+}
+
+
+/*---Media Queries --
+
+
+.carousel-caption h1{
+  font-size:250%;
+}
+
+.carousel-caption h3{
+  font-size:110%;
+
+}
+
+.carousel-caption .btn{
+  font-size: 90%;
+  padding: 4px 8px;
+}
+
+
+.display-4{
+  font-size:140%;
+}
+
+}
+
+@media (max-width: 768px) {
+.carousel-caption{
+  top:45%;
+}
+
+.carousel-caption h1{
+  font-size:350%;
+}
+
+.carousel-caption h3{
+  font-size:140%;
+  font-weight: 400;
+  padding-bottom: .2rem;
+}
+
+.carousel-caption .btn{
+  font-size: 95%;
+  padding: 8px 14px;
+}
+
+.display-4{
+  font-size:200%;
+}
+
+ .social a{
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+
+}
+
+
+@media (max-width: 992px) {
+.carousel-caption{
+  top:50%;
+}
+
+.carousel-caption h1{
+  font-size:450%;
+}
+
+.carousel-caption h3{
+  font-size:170%;
+
+}
+
+.carousel-caption .btn{
+  font-size: 100%;
+  padding: 12px 20px;
+}
+
+
+.display-4{
+  font-size:240%;
+}
+
+}
+
+
+@media (max-width: 1200px) {
+.carousel-caption{
+  top:55%;
+}
+
+.carousel-caption h1{
+  font-size:550%;
+}
+
+.carousel-caption h3{
+  font-size:200%;
+
+}
+
+.carousel-caption .btn{
+  font-size: 105%;
+  padding: 15px 23px;
+}
+
+
+.display-4{
+  font-size:280%;
+}
+
+}
+*/
+
+
+.fa-phone{
+  color: white;
+}
+
+
+
+
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+

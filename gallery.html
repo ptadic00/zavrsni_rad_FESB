@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Foto galerija</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.js"></script>
+
+	<link href="styles/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/gallery.css">
+	<link rel="stylesheet" type="text/css" href="styles/lightbox.css">
+
+</head>
+<body>
+
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Početna stranica</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="radnovrijeme.html">Radno vrijeme</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contactform.html">Imate pitanje?</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="review_pocetna.php">Komentari pacijentica</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="gallery.html">Foto galerija</a>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<div class="container">
+    <h1>Foto galerija</h1>
+    <h4>Mala galerija unutrašnjosti naše ordinacije.</h4>
+    <hr class="my-4">
+</div>
+
+<div class="align-items-center">
+	<div class="container gallery">
+		<a href="img/gallery/img1.jpg" data-lightbox="mygallery"><img src="img/gallery/img1-small.jpg"></a>
+		<a href="img/gallery/img2.jpg" data-lightbox="mygallery"><img src="img/gallery/img2-small.jpg"></a>
+		<a href="img/gallery/img3.jpg" data-lightbox="mygallery"><img src="img/gallery/img3-small.jpg"></a>
+		<a href="img/gallery/img4.jpg" data-lightbox="mygallery"><img src="img/gallery/img4-small.jpg"></a>
+		<a href="img/gallery/img5.jpg" data-lightbox="mygallery"><img src="img/gallery/img5-small.jpg"></a>
+		<a href="img/gallery/img6.jpg" data-lightbox="mygallery"><img src="img/gallery/img6-small.jpg"></a>
+		<a href="img/gallery/img7.jpg" data-lightbox="mygallery"><img src="img/gallery/img7-small.jpg"></a>
+	</div>
+</div>
+
+<!--- Footer -->
+<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-md-4">
+				
+				<i class="fas fa-phone"></i>
+				<h5>Kontakt</h5>
+				<hr class="light">
+				<p>Kontakt: 00385 23 250 167</p>
+				<p>Ginekološka ordinacija dr. Ivica Vlatković</p>
+				
+			</div>
+			<div class="col-md-4">
+				
+				<i class="far fa-clock"></i>
+				<h5>Radno vrijeme</h5>
+				<hr class="light">
+				<p>Pon-pet: na smjene od 8h do 20h</p>
+				<p><a target="_blank" href="radnovrijeme.html" style="underline">Ovdje</a> možete vidjeti detaljno radno vrijeme</p>
+			</div>
+
+			<div class="col-md-4">
+			
+				<i class="fas fa-map-marker-alt"></i>
+				<h5>Lokacija</h5>
+				<hr class="light">
+				<p>Obala kralja Petra Krešimira IV 9, Zadar</p>
+				<p><a href="../index.html#klikni">Ovdje</a> možete vidjeti lokaciju</p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+   <script type="text/javascript" src="scripts/lightbox-plus-jquery.js"></script>
+</body>
+</html>

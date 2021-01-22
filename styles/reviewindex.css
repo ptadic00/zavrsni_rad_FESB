@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+  height: 100%;
+  font-family: 'Poppins';
+  color:#222;
+
+  /*iz tutorijala*/
+  box-sizing: border-box;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.naslov{
+    text-align:center;
+    color:#6648b1 !important;
+    margin:30px 0 30px;
+}
+
+.subtitle{
+    text-align:center;
+    font-size:20px;
+    font-weight: normal !important;
+    font-family:'Poppins' !important;
+}
+
+
+/*navigation bar*/
+.navbar{
+  padding: .8rem;
+}
+
+.navbar-nav li{
+  padding-right: 20px;
+}
+
+.nav-link{
+  font-size: 1.1em !important;
+}
+
+
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron h2, .subtitle{
+    text-align:center;
+}
+
+.jumbotron{
+    max-width:1200px;
+    margin:auto;
+    padding-top:15px !important;
+}
+
+footer{
+  background-color: #3f3f3f;
+  color:#d5d5d5;
+  padding-top:1rem;
+}
